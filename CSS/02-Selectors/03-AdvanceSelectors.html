@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #parent > h2 {
+            color: red;
+        }
+        #parent + h2 {
+            color: blue;
+        }
+        #parent ~ h2 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Advance Selectors</h1>
+
+    <div id="parent">
+        <h2>This is inside parent</h2>
+        <h2>This is inside parent</h2>
+        <h2>This is inside parent</h2>
+        <div class="child">
+            <h2>This is inside child</h2>
+            <div class="grandchild">
+                <h2>This is inside grandchild</h2>
+            </div>
+        </div>
+        <h2>This is inside parent</h2>
+    </div>
+    
+    <hr>
+    
+    <h2>This is outside parent</h2>
+    <h2>This is outside parent</h2>
+    <h2>This is outside parent</h2>
+    
+</body>
+</html>

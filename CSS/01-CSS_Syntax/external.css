@@ -1,0 +1,8 @@
+/* p/h2/h3         - Selector
+{}              - Expression
+color           - Property
+green           - Value */
+p {
+    color: green;
+    font-size: 24px;
+}
