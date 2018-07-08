@@ -1,0 +1,32 @@
+body {
+    background-image: url("http://st3.cricketcountry.com/wp-content/uploads/2016/03/Indias-captain-Mahendra-Singh-Dhoni-makes-field-placement-during-the-first-T20-international-match-between-India-and-Sri-Lanka.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* body takes 8px of margin by default */
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+div {
+    height: 600px;
+    background-size: 100% 100%;
+    margin-bottom: 400px;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#div_1 {
+    background-image: url("http://sport360.com/wp-content/uploads/articles6/media-33468.jpg");
+}
+#div_2 {
+    background-image: url("https://i.ytimg.com/vi/DoJAjlMQbK8/maxresdefault.jpg");
+}
+#div_3 {
+    background-image: url("https://thiswallpaper.com/cdn/hdwallpapers/779/yuvraj%20singh%20indian%20cricketer%20player%20background%20picture.jpg");
+}
+#div_4 {
+    background-image: url("http://www.bestwebsiteinindia.com/blog/wp-content/uploads/2017/12/sachin-tendulkar.jpg");
+}
+#div_5 {
+    background-image: url("https://s3.amazonaws.com/nikeinc/assets/36722/Team-India-Kit-2015_16_9_original.jpg?1421176399");
+}
