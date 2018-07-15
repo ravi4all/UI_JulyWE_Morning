@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,Utkal,sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+#header {
+    background-color: #0C0C0C;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+#header .logo {
+    width: 5%;
+    position: relative;
+}
+#header .logo img {
+    width: 100%;
+    position: absolute;
+}
+
+#main-navigation {
+    width: 65%;
+    margin-left: 6%;
+}
+#main-navigation ul li {
+    display: inline-block;
+    padding: 15px 0px;
+    font-size: 14px;
+}
+#main-navigation ul li a {
+    text-decoration: none;
+    color: #bfbfbf;
+    margin-left: 4px;
+    padding-right: 5px;
+    border-right: 1px solid #bfbfbf;
+}
+#main-navigation ul li:last-child a {
+    border: none;
+}
+
+#extra-links {
+    width: 20%;
+}
+#extra-links .edition span{
+    color: #bfbfbf;
+    display: block;
+    padding: 15px 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#extra-links .search {
+    padding: 15px 0px 0px;
+    margin-right: 10px;
+}
+#extra-links .search i {
+    color: #bfbfbf;
+}
+
+#extra-links .nav-links {
+    padding: 15px 0px 0px;
+}
+#extra-links .nav-links .menu-btn {
+    background: transparent;
+    border: none;
+}
+#extra-links .nav-links .menu-btn .line{
+    display: block;
+    width: 20px;
+    height: 2px; 
+    margin-bottom: 4px;
+    background-color: #bfbfbf;
+}
+
+
+#content {
+    margin-top: 65px;
+}
+#section_1 a {
+    color: #262626;
+}
+#section_1 .news_1 {
+    width: 40%;
+}
+#section_1 .news_1 h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#section_1 .news_2 {
+    width: 26%;
+    margin: 0px 20px;
+}
+#section_1 .news_2 h2 {
+    font-size: 20px;
+}
+#section_1 .news_2 .image {
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#section_1 .news_2 .headline {
+    position: absolute;
+    width: 70%;
+    padding: 10px;
+    background-color: #E6E6E6;
+    bottom: -70px;
+    left: 10%;
+}
+
+#section_1 .news_3 {
+    width: 29%;
+}
+#section_1 .news_3 h2 {
+    font-size: 22px;
+}
+
+#section_1 ul li {
+    padding: 10px 0px;
+    border-top: 1px solid #d9d9d9;
+}
+#section_1 ul li a {
+    display: block;
+}
+
+#section_1 img {
+    width: 100%;
+}
+
+
+#footer {
+
+}
