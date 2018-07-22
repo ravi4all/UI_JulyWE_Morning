@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            height: 400px;
+            width: 400px;
+            margin: 0 auto;
+            border: 5px solid red;
+            border-radius: 50%;
+            /* border-top-left-radius: 200px;
+            border-bottom-left-radius: 200px; */
+            /* border-radius: 0px 200px; */
+            overflow: hidden;
+            /* x, y, blur, spread, color */
+            transition-duration: 2s;
+        }
+        div:hover {
+            box-shadow: 0px 0px 50px 10px gray;
+        }
+        img {
+            width: 100%;
+            transition-duration: 2s;
+        }
+        div:hover img{
+            /* filter: grayscale(100%); */
+            filter: blur(10px);
+        }
+        h2 {
+            text-shadow: 10px 10px 10px red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Shadow</h1>
+    <h2>This text has a shadow in background</h2>
+
+    <div>
+        <img src="../../dhoni.jpg" alt="">
+    </div>
+    
+</body>
+</html>

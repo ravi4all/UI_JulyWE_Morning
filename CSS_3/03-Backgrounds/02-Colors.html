@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        #header {
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            /* background-color: lightblue; */
+            background-color: rgba(255, 100, 80, 0.5);
+            padding: 12px 0px;
+            z-index: 10;
+            /* opacity: 0.5; */
+        }
+        h1 {
+            font-size: 40px;
+        }
+        #header img {
+            width: 10%;
+            position: absolute;
+            left: 200px;
+            top: 0px;
+        }
+        #banner img {
+            width: 100%;
+            max-height: 600px;
+        }
+        #banner {
+            position: relative;
+        }
+        #banner .text {
+            position: absolute;
+            bottom: 20px;
+            width: 40%;
+            left: 30%;
+            text-align: center;
+            color: #fff;
+            z-index: 100;
+        }
+        #banner .overlay {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            /* background-color: red; */
+            /* background: linear-gradient(red, green,yellow,blue); */
+            background: linear-gradient(rgba(0,0,0,0)20%,rgba(0,0,0,0.5)50%, rgba(0,47,82,1));
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <img src="../../images/Football.png" alt="">
+        <h1>Colors and Gradients</h1>
+    </div>
+    <div id="banner">
+        <img src="../../images/WebImages/Terminator002.jpg" alt="">
+        <div class="text">
+            <h2>Lancashire Lightning win by one run in an epic Roses clash</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta a laboriosam voluptate reprehenderit repudiandae minima consequuntur provident, labore corporis ab architecto quasi explicabo beatae voluptates eum delectus odit laborum atque?
+            </p>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    
+</body>
+</html>
