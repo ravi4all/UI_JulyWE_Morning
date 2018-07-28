@@ -1,0 +1,28 @@
+#parent {
+    border: 2px solid red;
+    position: relative;
+    height: 300px;
+    perspective: 400px;
+    width: 600px;
+    margin: 100px auto 0px;
+    /* overflow: hidden; */
+}
+img {
+    transition-duration: 5s;
+}
+#parent:hover .image img {
+    transform: translateX(1500px);
+}
+.door {
+    height: 300px;
+    background-color: red;
+    width: 250px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transition-duration: 2s;
+    transform-origin: right;
+}
+#parent:hover .door {
+    transform: rotateY(50deg);
+}

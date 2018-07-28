@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px solid red;
+            /* text-align: center; */
+        }
+        img {
+            transition-duration: 2s;
+            transition-timing-function: linear;
+            transform: scale(0.01,0.01);
+        }
+        div:hover img{
+            /* transform: scaleX(2.5); */
+            /* transform: scaleY(2.5); */
+            /* transform: scale(2.5,2.5); */
+            /* transform: rotate(360deg) translate(200px, 200px) scale(2.5,2.5); */
+            transform: scale(3,3) translate(200px,100px);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Transform Scale</h1>
+
+    <div>
+        <img src="../../images/hulk5-18463.gif" alt="">
+    </div>
+    
+</body>
+</html>

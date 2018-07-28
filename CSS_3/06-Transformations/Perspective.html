@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #parent {
+            border: 2px solid red;
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+            perspective: 50px;
+        }
+        .child {
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            transition-duration: 2s;
+            /* transform-origin: left; */
+            transform-origin: bottom;
+        }
+        #parent:hover .child {
+            /* transform: rotateY(-90deg); */
+            transform: rotateX(50deg);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Perpective</h1>
+
+    <div id="parent">
+        <div class="child"></div>
+    </div>
+    
+</body>
+</html>
