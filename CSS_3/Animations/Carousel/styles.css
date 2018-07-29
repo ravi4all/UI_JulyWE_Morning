@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    max-height: 600px;
+}
+
+#slider {
+    width: 500%;
+    animation: carousel 20s infinite;
+}
+.slide {
+    display: inline-block;
+    width: 20%;
+    margin: 0px -2px;
+}
+
+@keyframes carousel {
+    0% {
+        transform: translate(0%,0%);
+    }
+    20% {
+        transform: translate(-20%,0%);
+    }
+    40% {
+        transform: translate(-40%,0%);
+    }
+    60% {
+        transform: translate(-60%,0%);
+    }
+    80% {
+        transform: translate(-80%,0%);
+    }
+    100% {
+        transform: translate(0%,0%);
+    }
+}

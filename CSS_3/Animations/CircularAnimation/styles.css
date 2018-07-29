@@ -1,0 +1,37 @@
+#div_1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 100px auto 0px;
+}
+
+#div_2 {
+    width: 250px;
+    height: 230px;
+    top: 86px;
+    position: absolute;
+    left: 480px;
+    animation: anim_1 4s infinite linear;
+}
+#div_2 span {
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+@keyframes anim_1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+

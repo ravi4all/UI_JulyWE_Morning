@@ -1,0 +1,71 @@
+#cube {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    transition: 20s;
+    /* perspective: 300px; */
+    /* Flat
+    Preserve-3D */
+    transform-style: preserve-3d;
+    animation: cube 20s infinite linear;
+}
+@keyframes cube {
+    from {
+        transform: rotate3d(0,0,0,0deg);
+    }
+    to {
+        transform: rotate3d(1,1,1,360deg);
+    }
+}
+#cube:hover {
+    /* transform: rotateX(360deg); */
+    animation-play-state: paused;
+}
+
+#cube div {
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid red;
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    margin: 10px;
+    animation: join_cube 5s linear;
+}
+
+/* @keyframes join_cube {
+    from {
+        transform: translateZ(-50px);
+    }
+    to {
+        transform: translateZ(50px);
+    }
+} */
+
+#left {
+    transform: rotateY(90deg) translateZ(-50px);
+    transform-origin: left;
+}
+
+#right {
+    transform: rotateY(-90deg) translateZ(-50px);
+    transform-origin: right;
+}
+
+#top {
+    transform: rotateX(-90deg) translateZ(-50px);
+    transform-origin: top;
+}
+#bottom {
+    transform: rotateX(90deg) translateZ(-50px);
+    transform-origin: bottom;
+}
+
+#back {
+    transform: translateZ(-350px);
+}
+
+#front {
+    transform: translateZ(50px);
+}
