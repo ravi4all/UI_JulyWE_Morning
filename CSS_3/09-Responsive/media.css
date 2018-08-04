@@ -1,0 +1,29 @@
+body {
+    background-color: gray;
+}
+
+/* @media(max-width: 1200px) {
+    body {
+        background-color: lightgray;
+    }
+} */
+@media(min-width: 1200px) {
+    body {
+        background-color: lightgray;
+    }
+}
+
+#parent {
+    display: flex;
+}
+.col {
+    text-align: center;
+    background-color: lightcoral;
+    border: 2px solid #000;
+    margin: 0px 10px 20px;
+}
+@media(max-width:768px) {
+    #parent {
+        display: block;
+    }
+}
