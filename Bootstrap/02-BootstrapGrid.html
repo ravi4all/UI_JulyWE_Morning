@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .div_1, .div_2 {
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        .div_1 {
+            background-color: lightcoral;
+        }
+        .div_2 {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+        -> There should always be a container/container fluid 
+        -> There will always be a row because row is responsible for flex
+        -> Columns must be placed inside row
+        -> Only columns can be immediate child of row
+        -> Content will be placed inside columns only
+    -->
+
+    
+    <div id="container">
+        <header id="header">
+            <div class="container">
+                <h1>Bootstrap Grid</h1>
+            </div>
+        </header>
+
+        <div id="content">  
+            <div class="container">
+                <section id="section_1">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="div_1"></div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="div_2"></div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="div_1"></div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="div_2"></div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="div_1"></div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="div_2"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section_2">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="div_1"></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="div_2"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
