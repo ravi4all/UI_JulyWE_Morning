@@ -1,0 +1,54 @@
+a = 12
+12
+b = 13
+13
+a + b
+25
+a-b
+-1
+a/b
+0.9230769230769231
+a*b
+156
+typeof(a)
+"number"
+c = a/b
+0.9230769230769231
+typeof(c)
+"number"
+a = "hello"
+"hello"
+typeof(a)
+"string"
+a = "12"
+"12"
+b = 12
+12
+typeof(a)
+"string"
+typeof(b)
+"number"
+a == b
+true
+a === b
+false
+a + b
+"1212"
+c = 10
+10
+a+b+c
+"121210"
+b+c+a
+"2212"
+a*b
+144
+a-b
+0
+a/b
+1
+a="hello"
+"hello"
+a+b
+"hello12"
+a*b
+NaN
