@@ -1,0 +1,15 @@
+body {
+    overflow-x: hidden;
+}
+#image_2,#image_1 {
+    transition: 1s;
+}
+#image_1 {
+    transform: translateX(-100%);
+}
+#image_2 {
+    transform: translateX(100%);
+}
+#content.active #image_1, #content.active #image_2 {
+    transform: translateX(0%);
+}
